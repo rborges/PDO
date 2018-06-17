@@ -1,0 +1,187 @@
+/*!
+ * Start Bootstrap - Thumbnail Gallery HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+.navbar-right{
+    margin-right: 15px;
+}
+.navbar-right li p {padding-top: 10px; color: #c6c6c6}
+.thumb {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+table{margin: auto; width:75%;  }
+table img{max-width: 30px}
+table th, table td{text-align: center;}
+tr.edit, tr.delete,
+th.edit,th.delete{text-align: center; min-width: 50px;}
+
+.modal-content > fieldset{margin: auto; width: 80%}
+.modal-content > fieldset > input[type="email"]{ width: 80%}
+
+
+.modal-body table{width: 100%;}
+.modal-body table tr td.qtd{display: block}
+.modal-body table tr td div.row  input{    padding: 0;
+                                           margin: 0;
+                                           border: none; width: 30%; background-color: transparent}
+
+.mensagem-cart{height: 40px; width: 100%; display: none; border-radius:10px; text-align: center; padding: 11px }
+.mensagem-cart h4{margin: 0;padding: 0}
+.success{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f0f9ff+0,cbebff+47,a1dbff+100 */
+    background: #f0f9ff; /* Old browsers */
+    background: -moz-linear-gradient(top, #f0f9ff 0%, #cbebff 47%, #a1dbff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=0 ); /* IE6-9 */
+    color: #496ebc;
+}
+
+.error{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#febbbb+0,fe9090+45,ff5c5c+100;Red+3D+%231 */
+    background: #febbbb; /* Old browsers */
+    background: -moz-linear-gradient(top, #febbbb 0%, #fe9090 45%, #ff5c5c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin:auto;
+}
+
+.thumb {
+    margin-bottom: 30px;
+}
+
+
+.productbox {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out; 
+}
+.caption {
+    padding:10px;
+    background-color:rgba(0,0,0,0.7);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-height: 40%;
+    overflow: hidden;
+    font-size: 11px;
+    color: #FFF;
+
+}
+.finalprice {
+    font-size:15px;
+    color: #AAFCAE;
+}
+h5 {
+    margin-top: 0px;
+    color: white;
+    max-height: 30px;
+    overflow: hidden;
+}
+.img-responsive img{
+    width: 100%;    
+}
+.container {
+    width: 100%;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding: 5px;
+}
+.btn-block {
+    margin-top: 5px;
+}
+.saleoffrate{
+    position: absolute;
+    top:10px;
+    left: 10px;
+    padding-top: 13px;
+    text-align:center;
+    background-color: rgba(76, 174, 76,0.8);
+    color: #FFFFFF;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    line-height: 13px;
+}
+
+.cart{top:0; position: relative !important;margin-right: 40px}
+.cart:hover{ background-color: #c6c6c6 !important}
+@media (min-width: 384px) and (max-width: 768px) {
+    .img-responsive img{
+        max-width: 50%;
+    }
+    .img-responsive{
+        text-align: center;
+    }  
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
