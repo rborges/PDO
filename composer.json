@@ -6,7 +6,7 @@
         }],
     "autoload": {
         "psr-4": {
-            "FRAMEWORK\\": "vendor/FRAMEWORK/",
+            "framework\\": "vendor/framework/",
             "App\\": "App/"
         }
     },

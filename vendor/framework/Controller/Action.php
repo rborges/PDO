@@ -1,6 +1,6 @@
 <?php
 
-namespace FRAMEWORK\Controller;
+namespace framework\Controller;
 
 abstract class Action {
 

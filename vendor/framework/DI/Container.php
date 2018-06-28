@@ -1,6 +1,6 @@
 <?php
 
-namespace FRAMEWORK\DI;
+namespace framework\DI;
 
 /**
  * Description of Container

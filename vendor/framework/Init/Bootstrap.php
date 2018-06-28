@@ -1,6 +1,6 @@
 <?php
 
-namespace FRAMEWORK\Init;
+namespace framework\Init;
 
 abstract class Bootstrap {
 

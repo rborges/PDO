@@ -1,6 +1,6 @@
 <?php
 
-namespace FRAMEWORK\Model;
+namespace framework\Model;
 
 use App\Model\IDao;
 
