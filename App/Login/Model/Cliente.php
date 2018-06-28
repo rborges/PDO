@@ -2,7 +2,7 @@
 
 namespace App\Model;
 
-use FRAMEWORK\Model\Config;
+use framework\Model\Config;
 
 class Cliente extends Usuario implements IDao
 {

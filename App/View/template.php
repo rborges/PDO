@@ -1,6 +1,6 @@
 <?php
 
-use FRAMEWORK\Model\Config;
+use framework\Model\Config;
 
 $loggin = Config::isLoggedIn();
 

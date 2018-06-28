@@ -2,8 +2,8 @@
 
 namespace App\Controller;
 
-use FRAMEWORK\DI\Container;
-use FRAMEWORK\Controller\Action;
+use framework\DI\Container;
+use framework\Controller\Action;
 
 class LoginController extends Action
 {

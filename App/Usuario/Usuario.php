@@ -2,7 +2,7 @@
 
 namespace App\Model;
 
-use FRAMEWORK\Model\Table;
+use framework\Model\Table;
 
 class Usuario implements IDao
 {
